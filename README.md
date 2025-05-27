@@ -2,7 +2,7 @@
 A species-level open reference taxonomy assignment algorithm for 16S rRNA NGS reads.
 The assignment is based on the alignment of query read sequences against a set of 16S rRNA references, from which the species-level assignment was done.
 
-<img src="https://github.com/tsute/FOMC_16S_Taxonomy_Assignment_Algorithm/blob/main/Species-Level_BALSTN-QIIME-Pipeline-Flowchart_lettersize_20221029.png">
+<div align="center"><a href="https://github.com/tsute/FOMC_16S_Taxonomy_Assignment_Algorithm/blob/main/Species-Level_BALSTN-QIIME-Pipeline-Flowchart_lettersize_20221029.pdf"><img src="https://github.com/tsute/FOMC_16S_Taxonomy_Assignment_Algorithm/blob/main/Species-Level_BALSTN-QIIME-Pipeline-Flowchart_lettersize_20221029.png"></a></div>
 
 The species-level, open-reference 16S rRNA NGS reads taxonomy assignment pipeline
 Version 20180604
