@@ -2,6 +2,8 @@
 A species-level open reference taxonomy assignment algorithm for 16S rRNA NGS reads.
 The assignment is based on the alignment of query read sequences against a set of 16S rRNA references, from which the species-level assignment was done.
 
+<img src="https://github.com/tsute/FOMC_16S_Taxonomy_Assignment_Algorithm/blob/main/Species-Level_BALSTN-QIIME-Pipeline-Flowchart_lettersize_20221029.png">
+
 The species-level, open-reference 16S rRNA NGS reads taxonomy assignment pipeline
 Version 20180604
 Tsute Chen, Forsyth Institute Copyright 2018
@@ -49,6 +51,6 @@ k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__R
 k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Roseburia;s__ multispecies_sppn123_3_nov_96%
 	The above example indicates that some reads have no match to any of the reference sequences with sequence identity ≥ 98% and percent coverage (alignment length)  ≥ 98% as well. However this groups of reads (actually the representative read from a de novo  OTU) has 96% percent identity equally to 3 species in Roseburia. Thus this is no single closest species, instead this group of reads match equally to multiple species at 96%. Since they have passed chimera check so they represent a novel species. “sppn123” is a temporary ID for this potential novel species.
 
-<img src="https://github.com/tsute/FOMC_16S_Taxonomy_Assignment_Algorithm/blob/main/Species-Level_BALSTN-QIIME-Pipeline-Flowchart_lettersize_20221029.png">
+
 
 
