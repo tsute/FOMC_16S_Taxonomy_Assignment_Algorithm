@@ -1,4 +1,5 @@
 # FOMC_16S_Taxonomy_Assignment_Algorithm
+Version 20221029
 A species-level open reference taxonomy assignment algorithm for 16S rRNA NGS reads.
 The assignment is based on the alignment of query read sequences against a set of 16S rRNA references, from which the species-level assignment was done.
 
